@@ -48,6 +48,54 @@ namespace Mongocrud.DataAccessLayer
 			return res;
 		}
 
+		public async Task<GetRecordByIdResponse> GetRecordById(string Id)
+		{
+			GetRecordByIdResponse res = new GetRecordByIdResponse();
+			res.success = true;
+			res.message = "Success added!";
+
+			try
+			{
+				res.data = await _mongoCollection.Find(x => (x.Id == Id)).FirstOrDefaultAsync();
+
+				if (res.data==null)
+				{
+					res.message = "Invalid Id, please enter valid ID";
+				}
+			}
+			catch (Exception e)
+			{
+				res.success = false;
+				res.message = e.Message + "Some error occured";
+			}
+
+			return res;
+		}
+
+		public async Task<GetRecordByNameResponse> GetRecordByName(string Name)
+		{
+			GetRecordByNameResponse res = new GetRecordByNameResponse();
+			res.success = true;
+			res.message = "Success added!";
+
+			try
+			{
+				res.data = await _mongoCollection.Find(x => (x.Firstname == Name)).FirstOrDefaultAsync();
+
+				if (res.data == null)
+				{
+					res.message = "Invalid Id, please enter valid ID";
+				}
+			}
+			catch (Exception e)
+			{
+				res.success = false;
+				res.message = e.Message + "Some error occured";
+			}
+
+			return res;
+		}
+
 		public async Task<InsertRecordResponse> InsertRecord(InsertRecordRequest req)
 		{
 			InsertRecordResponse res = new InsertRecordResponse();

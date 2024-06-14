@@ -52,12 +52,29 @@ namespace Mongocrud.Controllers
 		}
 
 		[HttpGet]
-		public async Task<IActionResult> GetRecordById(InsertRecordRequest req)
+		public async Task<IActionResult> GetRecordById([FromQuery]string Id)
 		{
-			GetAllRecordResponse res = new GetAllRecordResponse();
+			GetRecordByIdResponse res = new GetRecordByIdResponse();
 			try
 			{
-				res = await _crudDL.GetAllRecord();
+				res = await _crudDL.GetRecordById(Id);
+			}
+			catch (Exception e)
+			{
+				res.success = false;
+				res.message = e.Message + "Some error occured";
+			}
+
+			return Ok(res);
+		}
+
+		[HttpGet]
+		public async Task<IActionResult> GetRecordByName([FromQuery] string Name)
+		{
+			GetRecordByNameResponse res = new GetRecordByNameResponse();
+			try
+			{
+				res = await _crudDL.GetRecordByName(Name);
 			}
 			catch (Exception e)
 			{
