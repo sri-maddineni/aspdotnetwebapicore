@@ -11,8 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="DataAccessLayer\" />
     <Folder Include="Models\" />
   </ItemGroup>
 

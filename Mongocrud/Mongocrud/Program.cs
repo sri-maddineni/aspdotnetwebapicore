@@ -1,3 +1,5 @@
+using Mongocrud.DataAccessLayer;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +8,10 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+//this project video tutorials
+
+builder.Services.AddScoped<ICrudDL, CrudDL>();
 
 var app = builder.Build();
 
