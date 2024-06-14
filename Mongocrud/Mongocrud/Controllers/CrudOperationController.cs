@@ -10,11 +10,11 @@ namespace Mongocrud.Controllers
 	public class CrudOperationController : ControllerBase
 	{
 
-		private readonly ICrudDL _ICrudDL;
+		private readonly ICrudDL _crudDL;
 		
 		public CrudOperationController(ICrudDL icrudDL)
 		{
-			_ICrudDL = icrudDL;
+			_crudDL = icrudDL;
 		}
 
 		[HttpPost]
@@ -23,7 +23,7 @@ namespace Mongocrud.Controllers
 			InsertRecordResponse res = new InsertRecordResponse();
 			try
 			{
-
+				res = await _crudDL.InsertRecord(req);
 			}
 			catch (Exception e)
 			{

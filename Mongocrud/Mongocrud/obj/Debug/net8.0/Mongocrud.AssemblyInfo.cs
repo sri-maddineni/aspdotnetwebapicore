@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mongocrud")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81b00976ce012fa5a24485fb2606da6dd8c408fd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04d04c2c92d5ec26a9d627749230743c8067655d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mongocrud")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mongocrud")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -31,3 +31,16 @@ D:\Snovasys\snovasysgithub\Training\mongodb\aspdotnetwebapicore\Mongocrud\Mongoc
 D:\Snovasys\snovasysgithub\Training\mongodb\aspdotnetwebapicore\Mongocrud\Mongocrud\obj\Debug\net8.0\Mongocrud.pdb
 D:\Snovasys\snovasysgithub\Training\mongodb\aspdotnetwebapicore\Mongocrud\Mongocrud\obj\Debug\net8.0\Mongocrud.genruntimeconfig.cache
 D:\Snovasys\snovasysgithub\Training\mongodb\aspdotnetwebapicore\Mongocrud\Mongocrud\obj\Debug\net8.0\ref\Mongocrud.dll
+D:\Snovasys\snovasysgithub\Training\mongodb\aspdotnetwebapicore\Mongocrud\Mongocrud\bin\Debug\net8.0\AWSSDK.Core.dll
+D:\Snovasys\snovasysgithub\Training\mongodb\aspdotnetwebapicore\Mongocrud\Mongocrud\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
+D:\Snovasys\snovasysgithub\Training\mongodb\aspdotnetwebapicore\Mongocrud\Mongocrud\bin\Debug\net8.0\DnsClient.dll
+D:\Snovasys\snovasysgithub\Training\mongodb\aspdotnetwebapicore\Mongocrud\Mongocrud\bin\Debug\net8.0\MongoDB.Bson.dll
+D:\Snovasys\snovasysgithub\Training\mongodb\aspdotnetwebapicore\Mongocrud\Mongocrud\bin\Debug\net8.0\MongoDB.Driver.dll
+D:\Snovasys\snovasysgithub\Training\mongodb\aspdotnetwebapicore\Mongocrud\Mongocrud\bin\Debug\net8.0\MongoDB.Driver.Core.dll
+D:\Snovasys\snovasysgithub\Training\mongodb\aspdotnetwebapicore\Mongocrud\Mongocrud\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
+D:\Snovasys\snovasysgithub\Training\mongodb\aspdotnetwebapicore\Mongocrud\Mongocrud\bin\Debug\net8.0\SharpCompress.dll
+D:\Snovasys\snovasysgithub\Training\mongodb\aspdotnetwebapicore\Mongocrud\Mongocrud\bin\Debug\net8.0\Snappier.dll
+D:\Snovasys\snovasysgithub\Training\mongodb\aspdotnetwebapicore\Mongocrud\Mongocrud\bin\Debug\net8.0\ZstdSharp.dll
+D:\Snovasys\snovasysgithub\Training\mongodb\aspdotnetwebapicore\Mongocrud\Mongocrud\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
+D:\Snovasys\snovasysgithub\Training\mongodb\aspdotnetwebapicore\Mongocrud\Mongocrud\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
+D:\Snovasys\snovasysgithub\Training\mongodb\aspdotnetwebapicore\Mongocrud\Mongocrud\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll

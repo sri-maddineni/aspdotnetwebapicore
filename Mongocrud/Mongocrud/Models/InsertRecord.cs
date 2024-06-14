@@ -11,22 +11,22 @@ namespace Mongocrud.Models
 		[BsonRepresentation(BsonType.ObjectId)]
 		public string? Id { get; set; }
 
-		public string createdAt { get; set; }
+		public string? createdAt { get; set; }
 
-		public string updatedAt { get; set; }
+		public string? updatedAt { get; set; }
 
 		[Required]
 		[BsonElement("Name")]
-		public string Firstname {  get; set; }
+		public string? Firstname {  get; set; }
 
 		[Required]
-		public string Lastname { get; set; }
+		public string? Lastname { get; set; }
 
 		[Required]
-		public int age { get; set; }
+		public int? age { get; set; }
 
 		[Required]
-		public string contact { get; set; }
+		public string? contact { get; set; }
 
 		
 		public double salary { get; set; }
@@ -35,7 +35,7 @@ namespace Mongocrud.Models
 	public class InsertRecordResponse
 	{
 		public bool success { get; set; }
-		public string message { get; set; }
+		public string? message { get; set; }
 
 	}
 }
