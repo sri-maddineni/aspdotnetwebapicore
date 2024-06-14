@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Mongocrud.DataAccessLayer;
 using Mongocrud.Models;
+using System.Xml.Linq;
 
 namespace Mongocrud.Controllers
 {
@@ -75,6 +76,60 @@ namespace Mongocrud.Controllers
 			try
 			{
 				res = await _crudDL.GetRecordByName(Name);
+			}
+			catch (Exception e)
+			{
+				res.success = false;
+				res.message = e.Message + "Some error occured";
+			}
+
+			return Ok(res);
+		}
+
+		[HttpPut]
+		public async Task<IActionResult> UpdateRecordById(InsertRecordRequest req)
+		{
+			UpdateRecordByIdResponse res = new UpdateRecordByIdResponse();
+			try
+			{
+				res = await _crudDL.UpdateRecordById(req);
+			}
+			catch (Exception e)
+			{
+				res.success = false;
+				res.message = e.Message + "Some error occured";
+			}
+
+			return Ok(res);
+		}
+
+
+
+		[HttpPatch]
+		public async Task<IActionResult> UpdateSalaryById(UpdateSalaryByIdRequest req)
+		{
+			UpdateSalaryByIdResponse res = new UpdateSalaryByIdResponse();
+			try
+			{
+				res = await _crudDL.UpdateSalaryById(req);
+			}
+			catch (Exception e)
+			{
+				res.success = false;
+				res.message = e.Message + "Some error occured";
+			}
+
+			return Ok(res);
+		}
+
+
+		[HttpDelete]
+		public async Task<IActionResult> DeleteRecordById(string Id)
+		{
+			DeleteRecordByIdResponse res = new DeleteRecordByIdResponse();
+			try
+			{
+				res = await _crudDL.DeleteRecordById(Id);
 			}
 			catch (Exception e)
 			{

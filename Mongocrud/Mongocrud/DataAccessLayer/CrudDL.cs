@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http.HttpResults;
 using Mongocrud.Models;
+using MongoDB.Bson;
 using MongoDB.Driver;
 using MongoDB.Driver.Core.Configuration;
 
@@ -72,6 +73,7 @@ namespace Mongocrud.DataAccessLayer
 			return res;
 		}
 
+		
 		public async Task<GetRecordByNameResponse> GetRecordByName(string Name)
 		{
 			GetRecordByNameResponse res = new GetRecordByNameResponse();
@@ -80,7 +82,7 @@ namespace Mongocrud.DataAccessLayer
 
 			try
 			{
-				res.data = await _mongoCollection.Find(x => (x.Firstname == Name)).FirstOrDefaultAsync();
+				res.data = await _mongoCollection.Find(x => (x.Firstname == Name)).ToListAsync<InsertRecordRequest>();
 
 				if (res.data == null)
 				{
@@ -114,6 +116,83 @@ namespace Mongocrud.DataAccessLayer
 				res.success = false;
 				res.message = e.Message + "Some error occured";
 				
+			}
+
+			return res;
+		}
+
+		public async Task<UpdateRecordByIdResponse> UpdateRecordById(InsertRecordRequest req)
+		{
+			UpdateRecordByIdResponse res = new UpdateRecordByIdResponse();
+			res.success = true;
+			res.message = "Success added!";
+			try
+			{
+				GetRecordByIdResponse res1 = await GetRecordById(req.Id);
+				req.updatedAt = DateTime.Now.ToString();	
+				req.createdAt=res1.data.createdAt;
+				var result = await _mongoCollection.ReplaceOneAsync(x => x.Id == req.Id, req);
+
+				if (!result.IsAcknowledged)
+				{
+					res.success = false;
+					res.message = "Not updated";
+				}
+
+			}
+			catch (Exception e)
+			{
+				res.success = false;
+				res.message = e.Message + "Some error occured";
+
+			}
+
+			return res;
+		}
+
+		public async Task<DeleteRecordByIdResponse> DeleteRecordById(string Id)
+		{
+			DeleteRecordByIdResponse res = new DeleteRecordByIdResponse();
+			res.success = true;
+			res.message = "Success added!";
+
+			try
+			{
+				await _mongoCollection.DeleteOneAsync(x => x.Id == Id);
+
+			}
+			catch (Exception e)
+			{
+				res.success = false;
+				res.message = e.Message + "Some error occured";
+			}
+
+			return res;
+		}
+
+		public async Task<UpdateSalaryByIdResponse> UpdateSalaryById(UpdateSalaryByIdRequest req)
+		{
+			UpdateSalaryByIdResponse res = new UpdateSalaryByIdResponse();
+			res.success = true;
+			res.message = "Success added!";
+			try
+			{
+				var Filter=new BsonDocument().Add("salary",req.salary).Add("updatedAt",DateTime.Now.ToString());
+				var updatedAt=new BsonDocument("$set",Filter);
+				var result = await _mongoCollection.UpdateOneAsync(x=>x.Id==req.Id,updatedAt);
+
+				if (!result.IsAcknowledged)
+				{
+					res.success = false;
+					res.message = "Not updated";
+				}
+
+			}
+			catch (Exception e)
+			{
+				res.success = false;
+				res.message = e.Message + "Some error occured";
+
 			}
 
 			return res;
