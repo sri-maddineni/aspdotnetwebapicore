@@ -141,6 +141,24 @@ namespace Mongocrud.Controllers
 		}
 
 
+		[HttpDelete]
+		public async Task<IActionResult> DeleteAllRecord()
+		{
+			UpdateSalaryByIdResponse res = new UpdateSalaryByIdResponse();
+			try
+			{
+				res = await _crudDL.DeleteAllRecord();
+			}
+			catch (Exception e)
+			{
+				res.success = false;
+				res.message = e.Message + "Some error occured";
+			}
+
+			return Ok(res);
+		}
+
+
 
 	}
 }

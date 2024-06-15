@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Mongocrud"
+    "\\Mongocrud",
+    "\\Mongocrud\\DataAccessLayer",
+    "\\Mongocrud\\Models"
   ],
+  "SelectedNode": "\\Mongocrud.sln",
   "PreviewInSolutionExplorer": false
 }

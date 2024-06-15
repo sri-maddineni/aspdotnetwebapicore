@@ -17,5 +17,7 @@ namespace Mongocrud.DataAccessLayer
 
 		public Task<DeleteRecordByIdResponse>DeleteRecordById(string Id);
 
+		public Task<UpdateSalaryByIdResponse> DeleteAllRecord();
+
 	}
 }

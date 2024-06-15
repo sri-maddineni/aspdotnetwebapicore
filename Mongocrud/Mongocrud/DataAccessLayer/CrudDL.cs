@@ -198,6 +198,26 @@ namespace Mongocrud.DataAccessLayer
 			return res;
 		}
 
-		
+		public async Task<UpdateSalaryByIdResponse> DeleteAllRecord()
+		{
+
+			UpdateSalaryByIdResponse res = new UpdateSalaryByIdResponse();
+			res.success = true;
+			res.message = "Success added!";
+
+			try
+			{
+				await _mongoCollection.DeleteManyAsync(x => true);
+
+			}
+			catch (Exception e)
+			{
+				res.success = false;
+				res.message = e.Message + "Some error occured";
+			}
+
+			return res;
+
+		}
 	}
 }

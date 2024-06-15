@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "D:\\Snovasys\\snovasysgithub\\Training\\mongodb\\aspdotnetwebapicore\\Mongocrud\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3345474B-465F-423C-A394-13FEDB44A293}|Mongocrud\\Mongocrud.csproj|d:\\snovasys\\snovasysgithub\\training\\mongodb\\aspdotnetwebapicore\\mongocrud\\mongocrud\\dataaccesslayer\\cruddl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3345474B-465F-423C-A394-13FEDB44A293}|Mongocrud\\Mongocrud.csproj|solutionrelative:mongocrud\\dataaccesslayer\\cruddl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3345474B-465F-423C-A394-13FEDB44A293}|Mongocrud\\Mongocrud.csproj|d:\\snovasys\\snovasysgithub\\training\\mongodb\\aspdotnetwebapicore\\mongocrud\\mongocrud\\models\\updatesalarybyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3345474B-465F-423C-A394-13FEDB44A293}|Mongocrud\\Mongocrud.csproj|solutionrelative:mongocrud\\models\\updatesalarybyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3345474B-465F-423C-A394-13FEDB44A293}|Mongocrud\\Mongocrud.csproj|d:\\snovasys\\snovasysgithub\\training\\mongodb\\aspdotnetwebapicore\\mongocrud\\mongocrud\\dataaccesslayer\\icruddl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3345474B-465F-423C-A394-13FEDB44A293}|Mongocrud\\Mongocrud.csproj|solutionrelative:mongocrud\\dataaccesslayer\\icruddl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3345474B-465F-423C-A394-13FEDB44A293}|Mongocrud\\Mongocrud.csproj|d:\\snovasys\\snovasysgithub\\training\\mongodb\\aspdotnetwebapicore\\mongocrud\\mongocrud\\controllers\\crudoperationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3345474B-465F-423C-A394-13FEDB44A293}|Mongocrud\\Mongocrud.csproj|solutionrelative:mongocrud\\controllers\\crudoperationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3345474B-465F-423C-A394-13FEDB44A293}|Mongocrud\\Mongocrud.csproj|d:\\snovasys\\snovasysgithub\\training\\mongodb\\aspdotnetwebapicore\\mongocrud\\mongocrud\\models\\updaterecordbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3345474B-465F-423C-A394-13FEDB44A293}|Mongocrud\\Mongocrud.csproj|solutionrelative:mongocrud\\models\\updaterecordbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3345474B-465F-423C-A394-13FEDB44A293}|Mongocrud\\Mongocrud.csproj|d:\\snovasys\\snovasysgithub\\training\\mongodb\\aspdotnetwebapicore\\mongocrud\\mongocrud\\dataaccesslayer\\cruddl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3345474B-465F-423C-A394-13FEDB44A293}|Mongocrud\\Mongocrud.csproj|solutionrelative:mongocrud\\dataaccesslayer\\cruddl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3345474B-465F-423C-A394-13FEDB44A293}|Mongocrud\\Mongocrud.csproj|d:\\snovasys\\snovasysgithub\\training\\mongodb\\aspdotnetwebapicore\\mongocrud\\mongocrud\\dataaccesslayer\\icruddl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3345474B-465F-423C-A394-13FEDB44A293}|Mongocrud\\Mongocrud.csproj|solutionrelative:mongocrud\\dataaccesslayer\\icruddl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3345474B-465F-423C-A394-13FEDB44A293}|Mongocrud\\Mongocrud.csproj|d:\\snovasys\\snovasysgithub\\training\\mongodb\\aspdotnetwebapicore\\mongocrud\\mongocrud\\models\\deleterecordbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3345474B-465F-423C-A394-13FEDB44A293}|Mongocrud\\Mongocrud.csproj|d:\\snovasys\\snovasysgithub\\training\\mongodb\\aspdotnetwebapicore\\mongocrud\\mongocrud\\models\\getrecordbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3345474B-465F-423C-A394-13FEDB44A293}|Mongocrud\\Mongocrud.csproj|solutionrelative:mongocrud\\models\\getrecordbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3345474B-465F-423C-A394-13FEDB44A293}|Mongocrud\\Mongocrud.csproj|d:\\snovasys\\snovasysgithub\\training\\mongodb\\aspdotnetwebapicore\\mongocrud\\mongocrud\\models\\insertrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3345474B-465F-423C-A394-13FEDB44A293}|Mongocrud\\Mongocrud.csproj|solutionrelative:mongocrud\\models\\insertrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3345474B-465F-423C-A394-13FEDB44A293}|Mongocrud\\Mongocrud.csproj|d:\\snovasys\\snovasysgithub\\training\\mongodb\\aspdotnetwebapicore\\mongocrud\\mongocrud\\models\\getrecordbyname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,24 +46,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UpdateSalaryById.cs",
-              "DocumentMoniker": "D:\\Snovasys\\snovasysgithub\\Training\\mongodb\\aspdotnetwebapicore\\Mongocrud\\Mongocrud\\Models\\UpdateSalaryById.cs",
-              "RelativeDocumentMoniker": "Mongocrud\\Models\\UpdateSalaryById.cs",
-              "ToolTip": "D:\\Snovasys\\snovasysgithub\\Training\\mongodb\\aspdotnetwebapicore\\Mongocrud\\Mongocrud\\Models\\UpdateSalaryById.cs",
-              "RelativeToolTip": "Mongocrud\\Models\\UpdateSalaryById.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAiAAAA",
+              "Title": "CrudDL.cs",
+              "DocumentMoniker": "D:\\Snovasys\\snovasysgithub\\Training\\mongodb\\aspdotnetwebapicore\\Mongocrud\\Mongocrud\\DataAccessLayer\\CrudDL.cs",
+              "RelativeDocumentMoniker": "Mongocrud\\DataAccessLayer\\CrudDL.cs",
+              "ToolTip": "D:\\Snovasys\\snovasysgithub\\Training\\mongodb\\aspdotnetwebapicore\\Mongocrud\\Mongocrud\\DataAccessLayer\\CrudDL.cs",
+              "RelativeToolTip": "Mongocrud\\DataAccessLayer\\CrudDL.cs",
+              "ViewState": "AQIAANEAAAAAAAAAAAAIwMgAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T12:48:25.039Z",
+              "WhenOpened": "2024-06-15T03:59:39.952Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "DeleteRecordById.cs",
               "DocumentMoniker": "D:\\Snovasys\\snovasysgithub\\Training\\mongodb\\aspdotnetwebapicore\\Mongocrud\\Mongocrud\\Models\\DeleteRecordById.cs",
               "RelativeDocumentMoniker": "Mongocrud\\Models\\DeleteRecordById.cs",
@@ -83,25 +71,11 @@
               "RelativeToolTip": "Mongocrud\\Models\\DeleteRecordById.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T12:40:19.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T12:40:19.607Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UpdateRecordById.cs",
-              "DocumentMoniker": "D:\\Snovasys\\snovasysgithub\\Training\\mongodb\\aspdotnetwebapicore\\Mongocrud\\Mongocrud\\Models\\UpdateRecordById.cs",
-              "RelativeDocumentMoniker": "Mongocrud\\Models\\UpdateRecordById.cs",
-              "ToolTip": "D:\\Snovasys\\snovasysgithub\\Training\\mongodb\\aspdotnetwebapicore\\Mongocrud\\Mongocrud\\Models\\UpdateRecordById.cs",
-              "RelativeToolTip": "Mongocrud\\Models\\UpdateRecordById.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwA8AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T11:23:35.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "GetRecordById.cs",
               "DocumentMoniker": "D:\\Snovasys\\snovasysgithub\\Training\\mongodb\\aspdotnetwebapicore\\Mongocrud\\Mongocrud\\Models\\GetRecordById.cs",
               "RelativeDocumentMoniker": "Mongocrud\\Models\\GetRecordById.cs",
@@ -109,8 +83,7 @@
               "RelativeToolTip": "Mongocrud\\Models\\GetRecordById.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAAwA0AAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T10:00:21.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T10:00:21.726Z"
             },
             {
               "$type": "Document",
@@ -120,53 +93,27 @@
               "RelativeDocumentMoniker": "Mongocrud\\DataAccessLayer\\ICrudDL.cs",
               "ToolTip": "D:\\Snovasys\\snovasysgithub\\Training\\mongodb\\aspdotnetwebapicore\\Mongocrud\\Mongocrud\\DataAccessLayer\\ICrudDL.cs",
               "RelativeToolTip": "Mongocrud\\DataAccessLayer\\ICrudDL.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAgwA4AAAAAAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA3wBEAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-14T04:56:10.366Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "InsertRecord.cs",
-              "DocumentMoniker": "D:\\Snovasys\\snovasysgithub\\Training\\mongodb\\aspdotnetwebapicore\\Mongocrud\\Mongocrud\\Models\\InsertRecord.cs",
-              "RelativeDocumentMoniker": "Mongocrud\\Models\\InsertRecord.cs",
-              "ToolTip": "D:\\Snovasys\\snovasysgithub\\Training\\mongodb\\aspdotnetwebapicore\\Mongocrud\\Mongocrud\\Models\\InsertRecord.cs",
-              "RelativeToolTip": "Mongocrud\\Models\\InsertRecord.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAA2wBQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T04:33:55.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CrudDL.cs",
-              "DocumentMoniker": "D:\\Snovasys\\snovasysgithub\\Training\\mongodb\\aspdotnetwebapicore\\Mongocrud\\Mongocrud\\DataAccessLayer\\CrudDL.cs",
-              "RelativeDocumentMoniker": "Mongocrud\\DataAccessLayer\\CrudDL.cs",
-              "ToolTip": "D:\\Snovasys\\snovasysgithub\\Training\\mongodb\\aspdotnetwebapicore\\Mongocrud\\Mongocrud\\DataAccessLayer\\CrudDL.cs",
-              "RelativeToolTip": "Mongocrud\\DataAccessLayer\\CrudDL.cs",
-              "ViewState": "AQIAAKsAAAAAAAAAAADwv7AAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T04:23:45.059Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "CrudOperationController.cs",
               "DocumentMoniker": "D:\\Snovasys\\snovasysgithub\\Training\\mongodb\\aspdotnetwebapicore\\Mongocrud\\Mongocrud\\Controllers\\CrudOperationController.cs",
               "RelativeDocumentMoniker": "Mongocrud\\Controllers\\CrudOperationController.cs",
               "ToolTip": "D:\\Snovasys\\snovasysgithub\\Training\\mongodb\\aspdotnetwebapicore\\Mongocrud\\Mongocrud\\Controllers\\CrudOperationController.cs",
               "RelativeToolTip": "Mongocrud\\Controllers\\CrudOperationController.cs",
-              "ViewState": "AQIAAGsAAAAAAAAAAAAiwGwAAAA1AAAA",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAIwJoAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-14T04:28:36.565Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "GetRecordByName.cs",
               "DocumentMoniker": "D:\\Snovasys\\snovasysgithub\\Training\\mongodb\\aspdotnetwebapicore\\Mongocrud\\Mongocrud\\Models\\GetRecordByName.cs",
               "RelativeDocumentMoniker": "Mongocrud\\Models\\GetRecordByName.cs",
@@ -174,12 +121,11 @@
               "RelativeToolTip": "Mongocrud\\Models\\GetRecordByName.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T10:24:00.109Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T10:24:00.109Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "GetAllRecord.cs",
               "DocumentMoniker": "D:\\Snovasys\\snovasysgithub\\Training\\mongodb\\aspdotnetwebapicore\\Mongocrud\\Mongocrud\\Models\\GetAllRecord.cs",
               "RelativeDocumentMoniker": "Mongocrud\\Models\\GetAllRecord.cs",
@@ -187,12 +133,11 @@
               "RelativeToolTip": "Mongocrud\\Models\\GetAllRecord.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T09:28:03.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T09:28:03.798Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Snovasys\\snovasysgithub\\Training\\mongodb\\aspdotnetwebapicore\\Mongocrud\\Mongocrud\\appsettings.json",
               "RelativeDocumentMoniker": "Mongocrud\\appsettings.json",
@@ -200,12 +145,11 @@
               "RelativeToolTip": "Mongocrud\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-14T05:47:04.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T05:47:04.448Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Snovasys\\snovasysgithub\\Training\\mongodb\\aspdotnetwebapicore\\Mongocrud\\Mongocrud\\Program.cs",
               "RelativeDocumentMoniker": "Mongocrud\\Program.cs",
@@ -213,8 +157,7 @@
               "RelativeToolTip": "Mongocrud\\Program.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T04:24:32.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T04:24:32.325Z"
             }
           ]
         }
